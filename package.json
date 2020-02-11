@@ -1,7 +1,7 @@
 {
 	"name": "eslint-config-wzx-react",
-	"version": "0.0.1",
-	"description": "The custom react eslint rules based on eslint-config-wzx and airbnb",
+	"version": "0.1.0",
+	"description": "The custom react eslint rules based on airbnb",
 	"main": "index.js",
 	"scripts": {
 		"lint": "eslint *.js",
@@ -28,11 +28,11 @@
 		"babel-eslint": "^10.0.3",
 		"eslint": "^6.8.0",
 		"eslint-config-airbnb": "^18.0.1",
-		"eslint-config-wzx": "^0.1.0",
 		"eslint-plugin-babel": "^5.3.0",
 		"eslint-plugin-import": "^2.20.1",
 		"eslint-plugin-jsx-a11y": "^6.2.3",
-		"eslint-plugin-react": "^7.18.3"
+		"eslint-plugin-react": "^7.18.3",
+		"eslint-plugin-react-hooks": "^2.3.0"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^8.3.5",

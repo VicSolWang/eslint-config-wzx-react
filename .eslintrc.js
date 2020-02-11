@@ -4,4 +4,4 @@
  * Email: vic.sol.wang@gmail.com
  */
 
-module.exports = require('./index.js');
+module.exports = require('./src/rule.json');
