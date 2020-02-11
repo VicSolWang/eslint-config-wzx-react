@@ -1,0 +1,44 @@
+{
+	"name": "eslint-config-wzx-react",
+	"version": "0.0.1",
+	"description": "The custom react eslint rules based on eslint-config-wzx and airbnb",
+	"main": "index.js",
+	"scripts": {
+		"lint": "eslint *.js",
+		"prettify": "prettier --write *.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/VicSolWang/eslint-config-wzx-react.git"
+	},
+	"keywords": [
+		"eslint",
+		"eslintconfig",
+		"wzx",
+		"react",
+		"airbnb"
+	],
+	"author": "VicSolWang",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/VicSolWang/eslint-config-wzx-react/issues"
+	},
+	"homepage": "https://github.com/VicSolWang/eslint-config-wzx-react#readme",
+	"dependencies": {
+		"babel-eslint": "^10.0.3",
+		"eslint": "^6.8.0",
+		"eslint-config-airbnb": "^18.0.1",
+		"eslint-config-wzx": "^0.1.0",
+		"eslint-plugin-babel": "^5.3.0",
+		"eslint-plugin-import": "^2.20.1",
+		"eslint-plugin-jsx-a11y": "^6.2.3",
+		"eslint-plugin-react": "^7.18.3"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^8.3.5",
+		"@commitlint/config-conventional": "^8.3.4",
+		"husky": "^4.2.1",
+		"lint-staged": "^10.0.7",
+		"prettier": "^1.19.1"
+	}
+}
