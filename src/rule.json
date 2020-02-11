@@ -89,6 +89,7 @@
 			}
 		],
 		"react/jsx-props-no-spreading": "off",
+		"react/jsx-wrap-multilines": "off",
 		"react/no-array-index-key": "off",
 		"react/no-did-update-set-state": "off",
 		"react/static-property-placement": [
