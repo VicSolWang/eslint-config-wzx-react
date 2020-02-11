@@ -4,4 +4,6 @@
  * Email: vic.sol.wang@gmail.com
  */
 
-module.exports = require('./src/rule.json');
+const rule = require('./src/rule');
+
+module.exports = rule;
