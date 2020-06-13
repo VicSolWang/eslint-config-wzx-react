@@ -33,6 +33,7 @@
 		"function-paren-newline": "off",
 		"global-require": "off",
 		"implicit-arrow-linebreak": "off",
+		"import/no-dynamic-require": "off",
 		"import/no-extraneous-dependencies": [
 			"error",
 			{
