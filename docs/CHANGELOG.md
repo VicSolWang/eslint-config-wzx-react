@@ -1,3 +1,11 @@
+## [0.3.1](https://github.com/VicSolWang/eslint-config-wzx-react/compare/v0.3.0...v0.3.1) (2021-12-24)
+
+
+### Bug Fixes
+
+* modify test ([201d955](https://github.com/VicSolWang/eslint-config-wzx-react/commit/201d9552477d6ad57b9e40440f3d6142262410e1))
+* modify test ([d070c07](https://github.com/VicSolWang/eslint-config-wzx-react/commit/d070c0798dacf0ea53fb7726a2e148a11a7c13a6))
+
 # [0.3.0](https://github.com/VicSolWang/eslint-config-wzx-react/compare/v0.2.0...v0.3.0) (2021-12-23)
 
 
