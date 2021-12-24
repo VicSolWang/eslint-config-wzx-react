@@ -38,7 +38,7 @@ test('Test basic properties of config.', (t) => {
 
 test('Test the validity of the custom rule.', async (t) => {
   const eslint = new ESLint();
-  const results = await eslint.lintFiles(['test/example/rule.js']);
+  const results = await eslint.lintFiles(['test/example/rule.jsx']);
   const result = (results || [])[0] || {};
   t.is(result.warningCount, 3);
   t.is(result.errorCount, 0);
