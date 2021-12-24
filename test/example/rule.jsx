@@ -14,6 +14,10 @@ if (a) {
 // 'import/no-dynamic-require': 'warn'
 require(a);
 
+// 'jsx-a11y/click-events-have-key-events': 'off'
+// 'jsx-a11y/no-static-element-interactions': 'off'
+<div onClick={() => {}} />;
+
 // 'no-bitwise': 'off'
 a = 1 & 2;
 
