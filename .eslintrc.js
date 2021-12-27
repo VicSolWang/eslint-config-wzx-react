@@ -6,4 +6,6 @@
 
 const config = require('./src/config');
 
+config.rules['import/no-extraneous-dependencies'] = 'off';
+
 module.exports = config;

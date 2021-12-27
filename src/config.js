@@ -4,21 +4,31 @@
  * Email: vic.sol.wang@gmail.com
  */
 
-const customRules = {
-  'global-require': 'warn',
-  'import/no-dynamic-require': 'warn',
+const baseConfig = require('eslint-config-wzx');
+
+const reactConfig = ['airbnb/hooks', 'plugin:react/jsx-runtime'];
+const reactRules = {
   'jsx-a11y/click-events-have-key-events': 'off',
   'jsx-a11y/no-static-element-interactions': 'off',
-  'no-bitwise': 'off',
-  'no-nested-ternary': 'off',
-  'no-script-url': 'warn',
-  'no-underscore-dangle': 'off',
 };
 
+const handleExtendsConfig = (extendsConfig = []) => {
+  const result = extendsConfig.map((item) =>
+    item.indexOf('airbnb') !== -1 ? item.replace(/[-/]base/g, '') : item,
+  );
+  result.splice(result.length - 1, 0, ...reactConfig);
+  return result;
+};
+
+const { overrides: defaultOverrides, ...defaultConfig } = baseConfig;
 const config = {
-  extends: ['airbnb', 'airbnb/hooks', 'plugin:react/jsx-runtime', 'prettier'],
+  ...defaultConfig,
+  extends: handleExtendsConfig(defaultConfig.extends),
   plugins: ['react'],
-  rules: customRules,
+  rules: {
+    ...defaultConfig.rules,
+    ...reactRules,
+  },
 };
 
 try {
@@ -27,19 +37,13 @@ try {
   require('@typescript-eslint/eslint-plugin');
   config.overrides = [
     {
-      files: ['*.ts', '*.tsx'],
-      extends: [
-        'airbnb',
-        'airbnb-typescript',
-        'airbnb/hooks',
-        'plugin:react/jsx-runtime',
-        'prettier',
-      ],
-      parserOptions: {
-        project: './tsconfig.json',
-      },
+      ...defaultOverrides[0],
+      extends: handleExtendsConfig(defaultOverrides[0].extends),
       plugins: ['react'],
-      rules: customRules,
+      rules: {
+        ...defaultOverrides[0].rules,
+        ...reactRules,
+      },
     },
   ];
 } catch (err) {
