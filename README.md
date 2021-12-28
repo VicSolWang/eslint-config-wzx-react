@@ -8,7 +8,7 @@
 [![codecov](https://img.shields.io/codecov/c/gh/VicSolWang/eslint-config-wzx-react/master?label=codecov&logo=codecov&style=flat-square)](https://codecov.io/gh/VicSolWang/eslint-config-wzx-react)
 [![NPM downloads](https://img.shields.io/npm/dt/eslint-config-wzx-react?style=flat-square)](https://www.npmjs.com/package/eslint-config-wzx-react)
 
-> The custom react eslint rules based on [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb). (Support Typescript Eslint)
+> The custom react eslint rules based on [eslint-config-wzx](https://www.npmjs.com/package/eslint-config-wzx). (Follow airbnb and Support Typescript Eslint)
 
 ## :cd: Installation
 
