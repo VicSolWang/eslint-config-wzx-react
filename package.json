@@ -39,7 +39,7 @@
   "homepage": "https://github.com/VicSolWang/eslint-config-wzx-react#readme",
   "dependencies": {
     "eslint-config-airbnb": "^19.0.2",
-    "eslint-config-wzx": "^0.5.2",
+    "eslint-config-wzx": "^0.5.3",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0"
