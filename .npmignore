@@ -24,6 +24,9 @@ coverage*
 # Dependency directories
 node_modules/
 
+# TypeScript files
+tsconfig.json
+
 # IDE / Editor
 .idea
 .vscode
