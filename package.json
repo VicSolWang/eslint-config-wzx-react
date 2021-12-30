@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-wzx-react",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "The custom react eslint rules based on eslint-config-wzx. (Follow airbnb and Support Typescript Eslint)",
   "main": "index.js",
   "engines": {

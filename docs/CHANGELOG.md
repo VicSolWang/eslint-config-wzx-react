@@ -1,3 +1,10 @@
+## [0.4.2](https://github.com/VicSolWang/eslint-config-wzx-react/compare/v0.4.1...v0.4.2) (2021-12-30)
+
+
+### Bug Fixes
+
+* update ignore config ([cb31f2d](https://github.com/VicSolWang/eslint-config-wzx-react/commit/cb31f2da9f42639bdf1dcd34a6174825ce68e692))
+
 ## [0.4.1](https://github.com/VicSolWang/eslint-config-wzx-react/compare/v0.4.0...v0.4.1) (2021-12-28)
 
 
